@@ -1,0 +1,60 @@
+body {
+  background-image: "../images/download.jpg;
+  text-align: center;
+  height: 100vh;
+}
+h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 300%;
+  color:black;
+}
+
+#game {
+  width: 60vmin;
+  margin: 10vh auto 0;
+  text-align: center;
+
+  #choices {
+    .char {
+      color: #ecf0f1;
+      background-color: #34495e;
+      width: 20vmin;
+      height: 20vmin;
+      font-size: 8vmin;
+      line-height: 20vmin;
+
+      &:hover {
+        background-color: #2c3e50;
+      }
+
+      &.chosen:hover {
+        background-color: #34495e;
+      }
+    }
+  }
+
+  #guess {
+    background-color: #7f8c8d;
+    color: #2c3e50;
+
+    .char {
+      background-color: #bdc3c7;
+      width: 10vmin;
+      height: 10vmin;
+      font-size: 4vmin;
+      line-height: 10vmin;
+    }
+
+    .correct {
+      .char {
+        background-color: #27ae60;
+      }
+    }
+
+    .wrong {
+      .char {
+        background-color: #c0392b;
+      }
+    }
+  }
+}

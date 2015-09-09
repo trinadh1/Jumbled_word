@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/wordJumble.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 100vh; }
+h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 500%;
+  font-weight: bold;
+  color:white;
+}
+#game {
+  width: 60vmin;
+  margin: 10vh auto 0;
+  text-align: center; }
+  #game #choices .char {
+    color: #ecf0f1;
+    background-color: #34495e;
+    width: 20vmin;
+    height: 20vmin;
+    font-size: 8vmin;
+    line-height: 20vmin; }
+    #game #choices .char:hover {
+      background-color: #2c3e50; }
+    #game #choices .char.chosen:hover {
+      background-color: #34495e; }
+  #game #guess {
+    background-color: #7f8c8d;
+    color: #2c3e50; }
+    #game #guess .char {
+      background-color: #bdc3c7;
+      width: 10vmin;
+      height: 10vmin;
+      font-size: 4vmin;
+      line-height: 10vmin; }
+    #game #guess .correct .char {
+      background-color: #27ae60; }
+    #game #guess .wrong .char {
+      background-color: #c0392b; }
+
+/*# sourceMappingURL=styles.css.map */
